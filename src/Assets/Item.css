@@ -1,0 +1,9 @@
+.card-img,
+.card-img-bottom,
+.card-img-top {
+  height: 320px;
+}
+
+.card {
+  margin: 10px;
+}

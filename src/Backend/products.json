@@ -1,0 +1,62 @@
+[
+    {
+        "id": "1",
+        "category":"Grano",
+        "stock": "4",
+        "brand": "Ardu",
+        "origin": "Brasil",
+        "price": "$1700",
+        "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/858/872/products/_dsc2606-11-eae43dcb5926a4f30f16352516877614-640-0.jpg",
+        "description": "El origen del grano es cultivado en la región de Minas Gerais, Brasil. La variedad de la planta de café se llama “CATUAI” y el beneficio del proceso es Natural. Presenta como características en su sabor una acidez baja y aromas a frutos secos tostados predominando los sabores dulces. De un cuerpo alto por su beneficio."
+    },
+    {
+        "id": "2",
+        "category":"Grano",
+        "stock": "8",
+        "brand": "Ardu",
+        "origin": "Colombia",
+        "price": "$2500",
+        "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/858/872/products/_dsc26181-85380e611fc5ab1bb116349074333542-640-0.jpg",
+        "description": "El origen del grano es cultivado en la región de Antioquia, Colombia. La variedad de la planta de café se llama “CATURRA” y el beneficio del proceso es Lavado. Presenta como características en su sabor una acidez limpia, frutal y vivaz. Con aroma floral y de cuerpo liviano, característico de los café de beneficio lavado."
+    },
+    {
+        "id": "3",
+        "category":"Molido",
+        "stock": "4",
+        "brand": "Ardu",
+        "origin": "Blend Bra Col",
+        "price": "$2000",
+        "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/858/872/products/blend8-53e8f5aed0ee49ba5d16365819222233-640-0.png",
+        "description": "Este café está conformado por una mezcla (blend) de granos en un porcentaje del 70% de Brasil y 30% de Colombia. Este blend al tener mayor presencia de granos de Brasil, busca incorporar la acidez y sabores frutales que tiene el café de Colombia, dando como resultado una bebida menos exótica y más equilibrada."
+    },
+    {
+        "id": "4",
+        "category":"Molido",
+        "stock": "4",
+        "brand": "Ardu",
+        "origin": "Brasil",
+        "price": "$2500",
+        "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/858/872/products/caramelo1-36f00be3624647652e16388171468147-640-0.png",
+        "description": "PROVENIENTE DE LA REGION DE SERRA DO SALITRE, MINAS GERAIS, BRASIL. CONTAMOS CON UN LOTE UNICO DE 20 BOLSAS DE 30KG PARA ARDU. GRANOS DE ESPECIALIDAD CERTIFICADOS POR Q GRADER DE LA SCA (SPECIAL COFFEE ASSOCIATION) CON UNA PUNTUACION DE 85 PUNTOS EN TAZA. PRESENTA CARACTERISTICAS DE CUERPO MEDIO, LOGRANDO UN ESPRESSO CREMOSO. ACIDEZ BAJA, CON UN RETRO GUSTO EXTENSO AL TIEMPO DE HABERLO TOMADO, PREDOMINANDO LOS SABORES A CARAMELO, CHOCOLATE, NUECES Y MIEL. VARIEDAD DE PLANTA: Topázio MG 1190."
+    },
+    {
+        "id": "5",
+        "category":"Grano",
+        "stock": "4",
+        "brand": "ES Tostadores",
+        "origin": "Nicaragua",
+        "price": "$2600",
+        "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/002/009/643/products/whatsapp-image-2022-08-31-at-21-46-35-11-59b38c90dd81af015216620555875611-240-0.jpeg",
+        "description": "Un café con delicatas notas a frutas y caramelo. Se destaca por su acidez brillante y cuerpo redondo. Perdil ideal para filtro"
+    },
+    {
+        "id": "6",
+        "category":"Grano",
+        "stock": "4",
+        "brand": "ES Tostadores",
+        "origin": "Guatemala",
+        "price": "$2600",
+        "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/002/009/643/products/historia1-e16c09776d13971b0e16667205783045-240-0.jpg",
+        "description": "Finca Palo Blanco, Beneficio Honey, Recolección Selectiva Manual, Secado en Camas africanas Altura 950m, Notas : Té de rosa- Miel- Fruta Dulce"
+    }
+]

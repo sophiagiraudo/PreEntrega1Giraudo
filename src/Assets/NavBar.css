@@ -1,0 +1,30 @@
+.mb-3 {
+  padding: 10px 50px !important;
+  font-family: roboto;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.nav-link {
+  color: #623b29 !important;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+.dropdown-item {
+  color: #623b29;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+a {
+  color: #623b29 !important;
+}

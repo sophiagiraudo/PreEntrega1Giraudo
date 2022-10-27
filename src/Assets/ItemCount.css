@@ -1,0 +1,12 @@
+.divCounter {
+  display: flex;
+  margin: 3px;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.value {
+  margin: 5px;
+}

@@ -1,4 +1,4 @@
-import "./CartWidget.css";
+import "../../../Assets/CartWidget.css";
 
 const CartWidget = () => {
   return (
