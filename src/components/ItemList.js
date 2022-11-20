@@ -1,52 +1,37 @@
 import { useState, useEffect } from "react";
-import Spinner from "./Spinner";
+import Spinners from "./Spinners";
 import Item from "./Item";
 import { useParams } from "react-router-dom";
 import "../Assets/ItemList.css";
+import {
+  getFirestore,
+  collection,
+  getDocs,
+  query,
+  where,
+} from "firebase/firestore";
 
 export default function ItemList() {
-  const [cards, setcards] = useState(<Spinner />);
-  const [loading, isLoading] = useState(false);
+  const [cards, setCards] = useState(<Spinners />);
+  const [loading, isLoading] = useState(true);
   const { category } = useParams();
 
-  //SIMULACION API
-  const listado = () => {
-    let items = require("../Backend/products.json");
-    return new Promise((resolve, reject) => {
-      setTimeout(() => {
-        resolve(items);
-        isLoading(true);
-      }, 2000);
-    });
-  };
-
   useEffect(() => {
-    async function fetchedItems() {
-      const items = await listado();
-      setcards(items);
-    }
+    const db = getFirestore();
+    const docRef = category
+      ? query(collection(db, "items"), where("category", "==", category))
+      : collection(db, "items");
 
-    fetchedItems();
-  }, []);
+    getDocs(docRef).then((snapshot) => {
+      setCards(snapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() })));
+      isLoading(false);
+    });
+  }, [category]);
 
   return (
     <div className="cardsContainer">
-      {!loading
+      {loading
         ? cards
-        : category
-        ? cards
-            .filter((product) => product.category === category)
-            .map((p) => (
-              <Item
-                key={p.id}
-                brand={p.brand}
-                origin={p.origin}
-                img={p.img}
-                category={p.category}
-                description={p.description}
-                id={p.id}
-              />
-            ))
         : cards.map((p) => (
             <Item
               key={p.id}

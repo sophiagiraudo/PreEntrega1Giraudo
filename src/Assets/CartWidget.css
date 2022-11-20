@@ -6,3 +6,7 @@
 .cart:hover {
   color: black;
 }
+
+.btnCart {
+  background-color: transparent;
+}

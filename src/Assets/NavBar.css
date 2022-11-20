@@ -28,3 +28,7 @@
 a {
   color: #623b29 !important;
 }
+
+button {
+  border: none;
+}

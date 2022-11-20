@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# Proyecto Final - React Js - Curso Coderhouse - Sofia Giraudo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+En este proyecto se resume lo aprendido a lo largo del curso de React JS brindado por Coderhouse.
 
-## Available Scripts
+## Tematica de mi Proyecto Final
 
-In the project directory, you can run:
+Mi idea esta basada en generar un e-commerce en el cual el usuario amante del café pueda encontrarse con una amplia variedad de este producto y ,porque no?, algunos productos complementarios, uniendo en la misma plataforma miles de marcas y variedades de café, dando la posibilidad al usuario de encontrar en un mismo sitio todo lo que ese mercado especifico ofrece. 
 
-### `npm start`
+### Web Site
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Como mencione antes el web site es un e-commerce en el cual vamos a encontrar inicialmente la seccion Home en donde se puden visualizar todos los poductos y luego accediendo a cada uno de ellos, el usuario puede ver los detalles y comprar la cantidad que se desee. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Header
 
-### `npm test`
+El mismo esta compuesto por un Logo ficticio y un Navbar en el cual encontramos la seccion Home anteriormente mencionada,la seccion café la cual posee un submenu con las categorias y por ultimo el acceso al carrito de compras.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Recorrido por el WebSite
 
-### `npm run build`
+La idea es que el usuario:
+1.Ingrese a Home
+2.Pueda seleccionar un producto y acceder al mismo con un click en el boton "Ver Más!"
+3.Ya en el producto especifico pueda leer sus caracteristicas
+4.Luego pueda elegir la cantidad y dar click en "Comprar"
+5.A partir de este momento pueda ver en el icono del carrito que posee articulos en el mismo
+6.Seleccione el carrito y encuentre todo el detalle de su compra
+7.Pueda agregar/eliminar cantidades, vaciar el carrito, etc
+8.Al momento de finalizar la compra, debera completar un formulario el cual luego llegara como una orden a la firebase.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### MUCHAS GRACIAS!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

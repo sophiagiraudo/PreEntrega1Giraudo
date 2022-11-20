@@ -1,34 +1,34 @@
 import ItemDetail from "./ItemDetail";
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
-import Spinner from "./Spinner";
+import Spinners from "./Spinners";
+import {
+  getFirestore,
+  collection,
+  getDocs,
+  query,
+  where,
+} from "firebase/firestore";
+import "../Assets/ItemDetailContainer.css";
 
 function ItemDetailContainer() {
   const { productID } = useParams();
-  const [cards, setcards] = useState(<Spinner />);
+  const [cards, setCards] = useState(<Spinners />);
   const [loading, isLoading] = useState(true);
 
-  const getItem = () => {
-    let items = require("../Backend/products.json");
-    return new Promise((resolve, reject) => {
-      setTimeout(() => {
-        resolve(items);
-        isLoading(false);
-      }, 1000);
-    });
-  };
-
   useEffect(() => {
-    async function fetchedItems() {
-      const items = await getItem();
-      setcards(items);
-    }
+    const db = getFirestore();
 
-    fetchedItems();
+    const docRef = query(collection(db, "items"), where("id", "==", productID));
+
+    getDocs(docRef).then((snapshot) => {
+      setCards(snapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() })));
+      isLoading(false);
+    });
   }, []);
 
   return (
-    <div>
+    <div className="ItemDetailContainer">
       {loading
         ? cards
         : cards

@@ -1,0 +1,22 @@
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.formContainer {
+  margin: 10px 80px;
+  background-color: #f2f2f2;
+}
+
+.btnCheckout {
+  text-align: center;
+  margin: 20px;
+}
+
+.headingForm {
+  text-align: center;
+}
